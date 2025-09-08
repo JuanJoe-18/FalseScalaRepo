@@ -1,0 +1,61 @@
+# =================================================================
+#  Archivos de Build y Compilación (SBT, Maven, Gradle)
+# =================================================================
+# Directorios de salida que contienen código compilado y artefactos.
+# ¡Nunca deben ser versionados!
+/target/
+/build/
+/bin/
+/out/
+
+# Archivos específicos del build de SBT
+/project/project/
+/project/target/
+
+# =================================================================
+#  IDEs y Editores
+# =================================================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.apt_generated
+.factorypath
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Herramientas de Scala (Metals, Bloop)
+.bsp/
+.metals/
+.bloop/
+
+# =================================================================
+#  Archivos del Sistema Operativo
+# =================================================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# =================================================================
+#  Logs y archivos temporales
+# =================================================================
+*.log
+*.tmp
